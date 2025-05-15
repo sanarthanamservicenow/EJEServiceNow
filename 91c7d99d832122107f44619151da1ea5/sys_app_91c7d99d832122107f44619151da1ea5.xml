@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>AES</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>dac71d5d832122107f44619151da1ec8</logo>
+        <menu/>
+        <name>External Job Approval Workflow</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_snc_external_j_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>The External Job Evaluation Workflow simplifies and streamlines the process of evaluating external job positions. It ensures consistency, efficiency, and transparency in the evaluation process, making it easier for HR teams to manage job evaluations</short_description>
+        <source>x_snc_external_j_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 14:00:04</sys_created_on>
+        <sys_id>91c7d99d832122107f44619151da1ea5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 14:00:07</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=91c7d99d832122107f44619151da1ea5"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>1.svg</file_name>
+        <hash>c59d940e0eda4e1c300edfc456720e8eb46934d684e2791cb2759b0fdd15c329</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>6938</size_bytes>
+        <size_compressed>2802</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 14:00:07</sys_created_on>
+        <sys_id>dac71d5d832122107f44619151da1ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 14:00:07</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>91c7d99d832122107f44619151da1ea5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="1.svg" sys_id="dac71d5d832122107f44619151da1ec8">dac71d5d832122107f44619151da1ec8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 14:00:07</sys_created_on>
+        <sys_id>1ec71d5d832122107f44619151da1ec8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3724</length>
+        <position>1</position>
+        <sys_attachment display_value="1.svg" sys_id="dac71d5d832122107f44619151da1ec8">dac71d5d832122107f44619151da1ec8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 14:00:07</sys_created_on>
+        <sys_id>9ec71d5d832122107f44619151da1ec8</sys_id>
+    </sys_attachment_doc>
+</record_update>
