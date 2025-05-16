@@ -4,27 +4,41 @@
             <element>gl</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 08:58:24</sys_created_on>
-            <sys_id>105c9921836122107f44619151da1e52</sys_id>
+            <sys_created_on>2025-05-16 09:36:13</sys_created_on>
+            <sys_id>5af425e9836122107f44619151da1e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 08:58:24</sys_updated_on>
+            <sys_updated_on>2025-05-16 09:36:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>plant</element>
+            <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 08:58:24</sys_created_on>
-            <sys_id>145c9921836122107f44619151da1e52</sys_id>
+            <sys_created_on>2025-05-16 09:36:13</sys_created_on>
+            <sys_id>52f425e9836122107f44619151da1e70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 08:58:24</sys_updated_on>
+            <sys_updated_on>2025-05-16 09:36:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>plant</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-16 09:36:13</sys_created_on>
+            <sys_id>56f425e9836122107f44619151da1e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-16 09:36:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
