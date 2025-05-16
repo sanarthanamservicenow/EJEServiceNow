@@ -4,15 +4,15 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4689000,viewActivatedIn=diagramming</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=393000,viewActivatedIn=diagramming</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
-        <description>EJE Approval Flow</description>
-        <internal_name>eje_approval_flow</internal_name>
-        <label_cache>[{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.477a05d153013010b846ddeeff7b1225}}","label":"App Engine Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛External Job Approval Request Record","reference":"x_snc_external_j_0_external_job_approval_request","reference_display":"External Job Approval Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
-        <master_snapshot>014ba12583a122107f44619151da1edd</master_snapshot>
+        <description> </description>
+        <internal_name>eje_approval_flow_1</internal_name>
+        <label_cache>[{"name":"{{static.477a05d153013010b846ddeeff7b1225}}","label":"App Engine Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛External Job Approval Request Record","reference":"x_snc_external_j_0_external_job_approval_request","reference_display":"External Job Approval Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>5badbda983e122107f44619151da1e10</master_snapshot>
         <name>EJE Approval Flow</name>
         <natlang/>
         <outputs/>
@@ -26,23 +26,23 @@
         <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 09:56:45</sys_created_on>
+        <sys_created_on>2025-05-16 11:21:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4fa9e1a183a122107f44619151da1e62</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_id>1d0d31a983e122107f44619151da1e9a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>EJE Approval Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
         <sys_policy/>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
-        <sys_update_name>sys_hub_flow_4fa9e1a183a122107f44619151da1e62</sys_update_name>
+        <sys_update_name>sys_hub_flow_1d0d31a983e122107f44619151da1e9a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_variable_value action="delete_multiple" query="document_key=4fa9e1a183a122107f44619151da1e62"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1d0d31a983e122107f44619151da1e9a"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition table="x_snc_external_j_0_external_job_approval_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -72,80 +72,80 @@
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
-        <identifier>4fa9e1a183a122107f44619151da1e62</identifier>
+        <identifier>1d0d31a983e122107f44619151da1e9a</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:56</sys_created_on>
-        <sys_id>dc9b312983e122107f44619151da1ee5</sys_id>
+        <sys_created_on>2025-05-16 11:27:52</sys_created_on>
+        <sys_id>3d8eb12d83e122107f44619151da1e64</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <trigger display_value="">0d4be12583a122107f44619151da1e3f</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4fa9e1a183a122107f44619151da1e62^sys_idNOT INdc9b312983e122107f44619151da1ee5"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=4fa9e1a183a122107f44619151da1e62^sys_idNOT IN2f3b612583a122107f44619151da1ebd"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1d0d31a983e122107f44619151da1e9a^sys_idNOT IN3d8eb12d83e122107f44619151da1e64"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1d0d31a983e122107f44619151da1e9a^sys_idNOT IN755db5a983e122107f44619151da1ef0"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="EJE Approval Flow">4fa9e1a183a122107f44619151da1e62</flow>
+        <flow display_value="EJE Approval Flow">1d0d31a983e122107f44619151da1e9a</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>2f3b612583a122107f44619151da1ebd</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>755db5a983e122107f44619151da1ef0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2f3b612583a122107f44619151da1ebd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=755db5a983e122107f44619151da1ef0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>2f3b612583a122107f44619151da1ebd</document_key>
+        <document_key>755db5a983e122107f44619151da1ef0</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>673b612583a122107f44619151da1ebf</sys_id>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>bd5db5a983e122107f44619151da1ef0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:37</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:40</sys_updated_on>
         <value>x_snc_external_j_0_external_job_approval_request</value>
         <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>2f3b612583a122107f44619151da1ebd</document_key>
+        <document_key>755db5a983e122107f44619151da1ef0</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>6f3b612583a122107f44619151da1ebe</sys_id>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>f95db5a983e122107f44619151da1ef0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:37</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:40</sys_updated_on>
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=4fa9e1a183a122107f44619151da1e62^sys_idNOT INcba9e1a183a122107f44619151da1e64"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1d0d31a983e122107f44619151da1e9a^sys_idNOT IN950d31a983e122107f44619151da1e9b"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>4fa9e1a183a122107f44619151da1e62</id>
-        <name>EJE Approval Flow</name>
+        <id>1d0d31a983e122107f44619151da1e9a</id>
+        <name>EJE Approval Flow 1</name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 09:56:45</sys_created_on>
-        <sys_id>cba9e1a183a122107f44619151da1e64</sys_id>
+        <sys_created_on>2025-05-16 11:21:17</sys_created_on>
+        <sys_id>950d31a983e122107f44619151da1e9b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 09:56:45</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:21:17</sys_updated_on>
     </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cba9e1a183a122107f44619151da1e64"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=4fa9e1a183a122107f44619151da1e62^sys_idNOT INa73b612583a122107f44619151da1eb9,a73b6de183a122107f44619151da1e87"/>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=950d31a983e122107f44619151da1e9b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1d0d31a983e122107f44619151da1e9a^sys_idNOT IN315db5a983e122107f44619151da1eec,695db5a983e122107f44619151da1ee8"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -186,10 +186,10 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="EJE Approval Flow">4fa9e1a183a122107f44619151da1e62</model>
-        <model_id>4fa9e1a183a122107f44619151da1e62</model_id>
+        <model display_value="EJE Approval Flow">1d0d31a983e122107f44619151da1e9a</model>
+        <model_id>1d0d31a983e122107f44619151da1e9a</model_id>
         <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_4fa9e1a183a122107f44619151da1e62</name>
+        <name>var__m_sys_hub_flow_input_1d0d31a983e122107f44619151da1e9a</name>
         <next_element/>
         <order>101</order>
         <primary>false</primary>
@@ -207,16 +207,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>a73b612583a122107f44619151da1eb9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>315db5a983e122107f44619151da1eec</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -229,7 +229,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a73b612583a122107f44619151da1eb9"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=315db5a983e122107f44619151da1eec"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -270,10 +270,10 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="EJE Approval Flow">4fa9e1a183a122107f44619151da1e62</model>
-        <model_id>4fa9e1a183a122107f44619151da1e62</model_id>
+        <model display_value="EJE Approval Flow">1d0d31a983e122107f44619151da1e9a</model>
+        <model_id>1d0d31a983e122107f44619151da1e9a</model_id>
         <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_4fa9e1a183a122107f44619151da1e62</name>
+        <name>var__m_sys_hub_flow_input_1d0d31a983e122107f44619151da1e9a</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -291,16 +291,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>a73b6de183a122107f44619151da1e87</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>695db5a983e122107f44619151da1ee8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -313,10 +313,10 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a73b6de183a122107f44619151da1e87"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=4fa9e1a183a122107f44619151da1e62^sys_idNOT INf28bfde583e122107f44619151da1e70"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=695db5a983e122107f44619151da1ee8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1d0d31a983e122107f44619151da1e9a^sys_idNOT IN3d5db5a983e122107f44619151da1ef6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -325,116 +325,168 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="EJE Approval Flow">4fa9e1a183a122107f44619151da1e62</flow>
+        <flow display_value="EJE Approval Flow">1d0d31a983e122107f44619151da1e9a</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>f28bfde583e122107f44619151da1e70</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>3d5db5a983e122107f44619151da1ef6</sys_id>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:15:10</sys_updated_on>
-        <ui_id>4914ca39-1766-45c9-b797-095ad8e032ad</ui_id>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
+        <ui_id>fad5aea1-dde2-4334-ba2a-3430e82a5ac6</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=f28bfde583e122107f44619151da1e70"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3d5db5a983e122107f44619151da1ef6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>f28bfde583e122107f44619151da1e70</document_key>
+        <document_key>3d5db5a983e122107f44619151da1ef6</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>3a8bfde583e122107f44619151da1e72</sys_id>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>315db5a983e122107f44619151da1efb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:49</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
         <value>x_snc_external_j_0_external_job_approval_request</value>
         <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>f28bfde583e122107f44619151da1e70</document_key>
+        <document_key>3d5db5a983e122107f44619151da1ef6</document_key>
         <order>5</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>768bfde583e122107f44619151da1e72</sys_id>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>7d5db5a983e122107f44619151da1efa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:49</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
         <value/>
         <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=f28bfde583e122107f44619151da1e70"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_conditions</field>
-        <id>f28bfde583e122107f44619151da1e70</id>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d5db5a983e122107f44619151da1ef6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>328bfde583e122107f44619151da1e72</sys_id>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>b95db5a983e122107f44619151da1efa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:49</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
+        <value>sys_mod_count</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d5db5a983e122107f44619151da1ef6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>f55db5a983e122107f44619151da1efa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
+        <value>sys_mod_count</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d5db5a983e122107f44619151da1ef6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>3d5db5a983e122107f44619151da1ef6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>b15db5a983e122107f44619151da1efa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyU[{{static.62826bf03710200044e0bfc8bcbe5df1}}]</value>
+        <value>ApprovesAnyG[{{static.477a05d153013010b846ddeeff7b1225}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>3d5db5a983e122107f44619151da1ef6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>b15db5a983e122107f44619151da1ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>due_date</field>
-        <id>f28bfde583e122107f44619151da1e70</id>
+        <id>3d5db5a983e122107f44619151da1ef6</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>7e8bfde583e122107f44619151da1e71</sys_id>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>fd5db5a983e122107f44619151da1ef9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:49</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>f28bfde583e122107f44619151da1e70</id>
+        <field>journal_field</field>
+        <id>3d5db5a983e122107f44619151da1ef6</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>ba8bfde583e122107f44619151da1e71</sys_id>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>795db5a983e122107f44619151da1ef9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:49</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3d5db5a983e122107f44619151da1ef6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>3d5db5a983e122107f44619151da1ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
-        <id>f28bfde583e122107f44619151da1e70</id>
+        <id>3d5db5a983e122107f44619151da1ef6</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:49</sys_created_on>
-        <sys_id>f28bfde583e122107f44619151da1e72</sys_id>
+        <sys_created_on>2025-05-16 11:22:41</sys_created_on>
+        <sys_id>755db5a983e122107f44619151da1efa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:49</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=f28bfde583e122107f44619151da1e70"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f28bfde583e122107f44619151da1e70"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=4fa9e1a183a122107f44619151da1e62"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4fa9e1a183a122107f44619151da1e62^sys_idNOT IN2b3b612583a122107f44619151da1eb8,2b3b612583a122107f44619151da1ebb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3d5db5a983e122107f44619151da1ef6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3d5db5a983e122107f44619151da1ef6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1d0d31a983e122107f44619151da1e9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1d0d31a983e122107f44619151da1e9a^sys_idNOT INa15db5a983e122107f44619151da1eeb,b15db5a983e122107f44619151da1eee"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
         <hint/>
         <label>Record</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_4fa9e1a183a122107f44619151da1e62</name>
+        <name>var__m_sys_hub_flow_input_1d0d31a983e122107f44619151da1e9a</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>2b3b612583a122107f44619151da1eb8</sys_id>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>a15db5a983e122107f44619151da1eeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
@@ -442,7 +494,7 @@
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:37</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:40</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -452,12 +504,12 @@
         <hint/>
         <label>Table Name</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_4fa9e1a183a122107f44619151da1e62</name>
+        <name>var__m_sys_hub_flow_input_1d0d31a983e122107f44619151da1e9a</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:37</sys_created_on>
-        <sys_id>2b3b612583a122107f44619151da1ebb</sys_id>
+        <sys_created_on>2025-05-16 11:22:40</sys_created_on>
+        <sys_id>b15db5a983e122107f44619151da1eee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
@@ -465,13 +517,13 @@
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:37</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:22:40</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4fa9e1a183a122107f44619151da1e62"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fa9e1a183a122107f44619151da1e62"/>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fa9e1a183a122107f44619151da1e62"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1d0d31a983e122107f44619151da1e9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1d0d31a983e122107f44619151da1e9a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1d0d31a983e122107f44619151da1e9a"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -482,14 +534,14 @@
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
-        <description>EJE Approval Flow</description>
-        <internal_name>eje_approval_flow</internal_name>
-        <label_cache>[{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.477a05d153013010b846ddeeff7b1225}}","label":"App Engine Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛External Job Approval Request Record","reference":"x_snc_external_j_0_external_job_approval_request","reference_display":"External Job Approval Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <description> </description>
+        <internal_name>eje_approval_flow_1</internal_name>
+        <label_cache>[{"name":"{{static.477a05d153013010b846ddeeff7b1225}}","label":"App Engine Admins","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛External Job Approval Request Record","reference":"x_snc_external_j_0_external_job_approval_request","reference_display":"External Job Approval Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
         <name>EJE Approval Flow</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="EJE Approval Flow">4fa9e1a183a122107f44619151da1e62</parent_flow>
+        <parent_flow display_value="EJE Approval Flow">1d0d31a983e122107f44619151da1e9a</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -497,11 +549,11 @@
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>014ba12583a122107f44619151da1edd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>5badbda983e122107f44619151da1e10</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -509,74 +561,74 @@
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=014ba12583a122107f44619151da1edd"/>
-    <sys_variable_value action="delete_multiple" query="document_key=014ba12583a122107f44619151da1edd"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=014ba12583a122107f44619151da1edd^sys_idNOT IN4d4be12583a122107f44619151da1e25"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5badbda983e122107f44619151da1e10"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5badbda983e122107f44619151da1e10"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5badbda983e122107f44619151da1e10^sys_idNOT IN97adbda983e122107f44619151da1e40"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="EJE Approval Flow">014ba12583a122107f44619151da1edd</flow>
+        <flow display_value="EJE Approval Flow">5badbda983e122107f44619151da1e10</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>4d4be12583a122107f44619151da1e25</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>97adbda983e122107f44619151da1e40</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4d4be12583a122107f44619151da1e25"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97adbda983e122107f44619151da1e40"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>4d4be12583a122107f44619151da1e25</document_key>
+        <document_key>97adbda983e122107f44619151da1e40</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>454be12583a122107f44619151da1e27</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>9fadbda983e122107f44619151da1e41</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:43</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <value>x_snc_external_j_0_external_job_approval_request</value>
         <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>4d4be12583a122107f44619151da1e25</document_key>
+        <document_key>97adbda983e122107f44619151da1e40</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>814be12583a122107f44619151da1e27</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>dbadbda983e122107f44619151da1e41</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:43</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=014ba12583a122107f44619151da1edd"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=014ba12583a122107f44619151da1edd^sys_idNOT IN014ba12583a122107f44619151da1ede"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5badbda983e122107f44619151da1e10"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5badbda983e122107f44619151da1e10^sys_idNOT IN57adbda983e122107f44619151da1e11"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>014ba12583a122107f44619151da1edd</id>
-        <name>EJE Approval Flow</name>
+        <id>5badbda983e122107f44619151da1e10</id>
+        <name>EJE Approval Flow 1</name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>014ba12583a122107f44619151da1ede</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>57adbda983e122107f44619151da1e11</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:43</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
     </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=014ba12583a122107f44619151da1ede"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=014ba12583a122107f44619151da1edd^sys_idNOT IN054ba12583a122107f44619151da1edf,cd4be12583a122107f44619151da1e0f"/>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=57adbda983e122107f44619151da1e11"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5badbda983e122107f44619151da1e10^sys_idNOT IN1badbda983e122107f44619151da1e12,5badbda983e122107f44619151da1e2b"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -617,10 +669,10 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="EJE Approval Flow">014ba12583a122107f44619151da1edd</model>
-        <model_id>014ba12583a122107f44619151da1edd</model_id>
+        <model display_value="EJE Approval Flow">5badbda983e122107f44619151da1e10</model>
+        <model_id>5badbda983e122107f44619151da1e10</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_014ba12583a122107f44619151da1edd</name>
+        <name>var__m_sys_hub_flow_input_5badbda983e122107f44619151da1e10</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -638,16 +690,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>054ba12583a122107f44619151da1edf</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>1badbda983e122107f44619151da1e12</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -660,7 +712,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=054ba12583a122107f44619151da1edf"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1badbda983e122107f44619151da1e12"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -701,10 +753,10 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="EJE Approval Flow">014ba12583a122107f44619151da1edd</model>
-        <model_id>014ba12583a122107f44619151da1edd</model_id>
+        <model display_value="EJE Approval Flow">5badbda983e122107f44619151da1e10</model>
+        <model_id>5badbda983e122107f44619151da1e10</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_014ba12583a122107f44619151da1edd</name>
+        <name>var__m_sys_hub_flow_input_5badbda983e122107f44619151da1e10</name>
         <next_element/>
         <order>101</order>
         <primary>false</primary>
@@ -722,16 +774,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>cd4be12583a122107f44619151da1e0f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>5badbda983e122107f44619151da1e2b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -744,10 +796,10 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd4be12583a122107f44619151da1e0f"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=014ba12583a122107f44619151da1edd"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=014ba12583a122107f44619151da1edd"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=014ba12583a122107f44619151da1edd^sys_idNOT IN009b312983e122107f44619151da1ea9"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5badbda983e122107f44619151da1e2b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5badbda983e122107f44619151da1e10"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5badbda983e122107f44619151da1e10"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5badbda983e122107f44619151da1e10^sys_idNOT IN53adbda983e122107f44619151da1e3d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -756,116 +808,168 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="EJE Approval Flow">014ba12583a122107f44619151da1edd</flow>
+        <flow display_value="EJE Approval Flow">5badbda983e122107f44619151da1e10</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>009b312983e122107f44619151da1ea9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>53adbda983e122107f44619151da1e3d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
-        <ui_id>4914ca39-1766-45c9-b797-095ad8e032ad</ui_id>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
+        <ui_id>fad5aea1-dde2-4334-ba2a-3430e82a5ac6</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=009b312983e122107f44619151da1ea9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=53adbda983e122107f44619151da1e3d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>009b312983e122107f44619151da1ea9</document_key>
+        <document_key>53adbda983e122107f44619151da1e3d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>1fadbda983e122107f44619151da1e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
+        <value>sys_mod_count</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53adbda983e122107f44619151da1e3d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>5badbda983e122107f44619151da1e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
+        <value>sys_mod_count</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53adbda983e122107f44619151da1e3d</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>449b312983e122107f44619151da1eab</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>93adbda983e122107f44619151da1e40</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <value>x_snc_external_j_0_external_job_approval_request</value>
         <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>009b312983e122107f44619151da1ea9</document_key>
+        <document_key>53adbda983e122107f44619151da1e3d</document_key>
         <order>5</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>809b312983e122107f44619151da1eab</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>dfadbda983e122107f44619151da1e3f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <value/>
         <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=009b312983e122107f44619151da1ea9"/>
+    <sys_element_mapping action="delete_multiple" query="id=53adbda983e122107f44619151da1e3d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_conditions</field>
-        <id>009b312983e122107f44619151da1ea9</id>
+        <id>53adbda983e122107f44619151da1e3d</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>4c9b312983e122107f44619151da1eaa</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>17adbda983e122107f44619151da1e3f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyU[{{static.62826bf03710200044e0bfc8bcbe5df1}}]</value>
+        <value>ApprovesAnyG[{{static.477a05d153013010b846ddeeff7b1225}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>53adbda983e122107f44619151da1e3d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>1badbda983e122107f44619151da1e3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>due_date</field>
-        <id>009b312983e122107f44619151da1ea9</id>
+        <id>53adbda983e122107f44619151da1e3d</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>889b312983e122107f44619151da1eaa</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>53adbda983e122107f44619151da1e3f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>009b312983e122107f44619151da1ea9</id>
+        <field>journal_field</field>
+        <id>53adbda983e122107f44619151da1e3d</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>c49b312983e122107f44619151da1eaa</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>dbadbda983e122107f44619151da1e3e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>53adbda983e122107f44619151da1e3d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>9fadbda983e122107f44619151da1e3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
-        <id>009b312983e122107f44619151da1ea9</id>
+        <id>53adbda983e122107f44619151da1e3d</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 11:14:55</sys_created_on>
-        <sys_id>009b312983e122107f44619151da1eab</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>d7adbda983e122107f44619151da1e3f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:55</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=009b312983e122107f44619151da1ea9"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=009b312983e122107f44619151da1ea9"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=014ba12583a122107f44619151da1edd"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=014ba12583a122107f44619151da1edd"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=014ba12583a122107f44619151da1edd"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=014ba12583a122107f44619151da1edd"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_014ba12583a122107f44619151da1edd^sys_idNOT IN814be12583a122107f44619151da1e14,c54be12583a122107f44619151da1e0c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53adbda983e122107f44619151da1e3d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=53adbda983e122107f44619151da1e3d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5badbda983e122107f44619151da1e10"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5badbda983e122107f44619151da1e10"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5badbda983e122107f44619151da1e10"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5badbda983e122107f44619151da1e10"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5badbda983e122107f44619151da1e10^sys_idNOT IN1fadbda983e122107f44619151da1e2f,53adbda983e122107f44619151da1e28"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
         <hint/>
         <label>Table Name</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_014ba12583a122107f44619151da1edd</name>
+        <name>var__m_sys_hub_flow_input_5badbda983e122107f44619151da1e10</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>814be12583a122107f44619151da1e14</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>1fadbda983e122107f44619151da1e2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
@@ -873,7 +977,7 @@
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:43</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -883,12 +987,12 @@
         <hint/>
         <label>Record</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_014ba12583a122107f44619151da1edd</name>
+        <name>var__m_sys_hub_flow_input_5badbda983e122107f44619151da1e10</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
-        <sys_id>c54be12583a122107f44619151da1e0c</sys_id>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
+        <sys_id>53adbda983e122107f44619151da1e28</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
@@ -896,35 +1000,35 @@
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 10:03:43</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:24:09</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_014ba12583a122107f44619151da1edd"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_014ba12583a122107f44619151da1edd"/>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_014ba12583a122107f44619151da1edd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5badbda983e122107f44619151da1e10"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5badbda983e122107f44619151da1e10"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5badbda983e122107f44619151da1e10"/>
     <sys_hub_flow action="UPDATE">
-        <sys_id>4fa9e1a183a122107f44619151da1e62</sys_id>
-        <latest_snapshot>014ba12583a122107f44619151da1edd</latest_snapshot>
+        <sys_id>1d0d31a983e122107f44619151da1e9a</sys_id>
+        <latest_snapshot>5badbda983e122107f44619151da1e10</latest_snapshot>
         <compiler_build>glide-vancouver-07-06-2023__patch7-02-08-2024_02-19-2024_0243.zip</compiler_build>
     </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4fa9e1a183a122107f44619151da1e62^sys_idNOT IN5d4be12583a122107f44619151da1e41"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1d0d31a983e122107f44619151da1e9a^sys_idNOT INd7adbda983e122107f44619151da1e50"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5d4be12583a122107f44619151da1e41","name":"plan","plan_signature":null}}</plan>
-        <plan_id>4fa9e1a183a122107f44619151da1e62</plan_id>
-        <snapshot>3f9bb12983e122107f44619151da1ed4</snapshot>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d7adbda983e122107f44619151da1e50","name":"plan","plan_signature":null}}</plan>
+        <plan_id>1d0d31a983e122107f44619151da1e9a</plan_id>
+        <snapshot>5badbda983e122107f44619151da1e10</snapshot>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 10:03:43</sys_created_on>
+        <sys_created_on>2025-05-16 11:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5d4be12583a122107f44619151da1e41</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>d7adbda983e122107f44619151da1e50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 11:14:56</sys_updated_on>
+        <sys_updated_on>2025-05-16 11:27:52</sys_updated_on>
         <trigger display_value="">0d4be12583a122107f44619151da1e3f</trigger>
     </sys_flow_trigger_plan>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4fa9e1a183a122107f44619151da1e62"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1d0d31a983e122107f44619151da1e9a"/>
 </record_update>

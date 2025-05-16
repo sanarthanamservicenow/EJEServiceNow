@@ -4,13 +4,13 @@
             <element>gl</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 11:18:31</sys_created_on>
-            <sys_id>7c6cb16983e122107f44619151da1e88</sys_id>
+            <sys_created_on>2025-05-16 11:24:28</sys_created_on>
+            <sys_id>08cdfda983e122107f44619151da1ed4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 11:18:31</sys_updated_on>
+            <sys_updated_on>2025-05-16 11:24:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>invoice_date</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 11:18:31</sys_created_on>
-            <sys_id>746cb16983e122107f44619151da1e89</sys_id>
+            <sys_created_on>2025-05-16 11:24:28</sys_created_on>
+            <sys_id>00cdfda983e122107f44619151da1ed5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 11:18:31</sys_updated_on>
+            <sys_updated_on>2025-05-16 11:24:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 11:18:31</sys_created_on>
-            <sys_id>786cb16983e122107f44619151da1e89</sys_id>
+            <sys_created_on>2025-05-16 11:24:28</sys_created_on>
+            <sys_id>04cdfda983e122107f44619151da1ed5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 11:18:31</sys_updated_on>
+            <sys_updated_on>2025-05-16 11:24:28</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,27 +46,13 @@
             <element>plant</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 11:18:31</sys_created_on>
-            <sys_id>7c6cb16983e122107f44619151da1e89</sys_id>
+            <sys_created_on>2025-05-16 11:24:28</sys_created_on>
+            <sys_id>08cdfda983e122107f44619151da1ed5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 11:18:31</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>invoice_document</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-16 11:18:31</sys_created_on>
-            <sys_id>706cb16983e122107f44619151da1e8a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_external_job_approval_request" sys_domain="global" view="Default view">c49bd5ed832122107f44619151da1ecb</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-16 11:18:31</sys_updated_on>
+            <sys_updated_on>2025-05-16 11:24:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
