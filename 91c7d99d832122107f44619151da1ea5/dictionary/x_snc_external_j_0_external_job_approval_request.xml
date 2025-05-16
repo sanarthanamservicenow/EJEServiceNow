@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="238b99ed832122107f44619151da1e6f" label="External Job Approval Request" max_length="40" name="x_snc_external_j_0_external_job_approval_request" type="collection">
-        <element label="GL" mandatory="true" max_length="32" name="gl" reference="x_snc_external_j_0_gl_m" type="reference"/>
+        <element hint="Please select GL" label="GL" mandatory="true" max_length="32" name="gl" reference="x_snc_external_j_0_gl_m" type="reference"/>
+        <element label="Invoice Date" mandatory="true" max_length="255" name="invoice_date" type="glide_date"/>
+        <element label="Invoice Document" mandatory="true" max_length="255" name="invoice_document" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_external_j_0_plant_m" type="reference"/>
+        <element hint="Please select Plant" label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_external_j_0_plant_m" type="reference"/>
         <index name="index">
             <element name="gl"/>
         </index>
