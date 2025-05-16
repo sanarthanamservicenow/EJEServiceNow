@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
         <column_label>GL</column_label>
@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_snc_external_j_0_external_job_approval_request</name>
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_snc_external_j_0_gl_m">x_snc_external_j_0_gl_m</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_external_j_0_external_job_approval_request_gl</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 09:02:59</sys_updated_on>
+        <sys_updated_on>2025-05-16 09:26:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
