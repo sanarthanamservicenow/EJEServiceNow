@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="238b99ed832122107f44619151da1e6f" label="External Job Approval Request" max_length="40" name="x_snc_external_j_0_external_job_approval_request" type="collection">
+        <element choice="1" label="GL" mandatory="true" max_length="32" name="gl" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Plant" mandatory="true" max_length="32" name="plant" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="gl"/>
+        </index>
+        <index name="index2">
+            <element name="plant"/>
+        </index>
+    </element>
+</database>

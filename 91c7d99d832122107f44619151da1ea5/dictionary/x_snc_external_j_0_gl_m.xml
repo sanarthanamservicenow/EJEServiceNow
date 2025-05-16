@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3962bdd983a122107f44619151da1e8a" label="GL_M" max_length="40" name="x_snc_external_j_0_gl_m" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="GL Code" mandatory="true" max_length="10" name="gl_code" type="string"/>
+        <element display="true" label="GL Desc" mandatory="true" max_length="250" name="gl_desc" type="string"/>
     </element>
 </database>

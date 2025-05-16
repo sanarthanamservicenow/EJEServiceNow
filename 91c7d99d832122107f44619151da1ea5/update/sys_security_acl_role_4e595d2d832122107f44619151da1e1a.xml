@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 08:45:24</sys_created_on>
+        <sys_id>4e595d2d832122107f44619151da1e1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_external_j_0_plant_m.x_snc_external_j_0.admin</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_security_acl display_value="x_snc_external_j_0_plant_m">46595d2d832122107f44619151da1e17</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4e595d2d832122107f44619151da1e1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 08:45:24</sys_updated_on>
+        <sys_user_role display_value="x_snc_external_j_0.admin" name="x_snc_external_j_0.admin">a1c7d99d832122107f44619151da1eab</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

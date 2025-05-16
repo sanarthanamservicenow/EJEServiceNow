@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dc591d2d832122107f44619151da1e04" label="PLANT_M" max_length="40" name="x_snc_external_j_0_plant_m" type="collection">
+        <element label="Plant Code" mandatory="true" max_length="10" name="plant_code" type="string"/>
+        <element display="true" label="Plant Desc" mandatory="true" max_length="250" name="plant_desc" type="string"/>
+    </element>
+</database>
