@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">36eecbb583e122107f44619151da1e64</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">8feecbb5bce122103cdf597f857979a8</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-05-17 11:57:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>87eecbb5eae122103359432efbd1aa89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_ux_page_property_87eecbb5eae122103359432efbd1aa89</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-17 11:57:39</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_external_j_0.36eecbb583e122107f44619151da1e64.route.chrome_header.8feecbb5bce122103cdf597f857979a8</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</application>
+        <file_path/>
+        <instance_id>4c3080fc93a92a90fb38f8284dba10c0</instance_id>
+        <instance_name>nowlearning-nlinst02801722-6vhxa-0001</instance_name>
+        <name>sys_ux_page_property_87eecbb5eae122103359432efbd1aa89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">36eecbb583e122107f44619151da1e64</page><required_translations>[]</required_translations><route display_value="Landing Page">8feecbb5bce122103cdf597f857979a8</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-05-17 11:57:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>87eecbb5eae122103359432efbd1aa89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package><sys_policy/><sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope><sys_update_name>sys_ux_page_property_87eecbb5eae122103359432efbd1aa89</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-05-17 11:57:39</sys_updated_on><type>json</type><unique_name>x_snc_external_j_0.36eecbb583e122107f44619151da1e64.route.chrome_header.8feecbb5bce122103cdf597f857979a8</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-43333204</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>fbc2cc31831112107f4469f60cda1e66</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-10-17 14:38:57</sys_created_on>
+        <sys_id>f9709b3983e122107f44619151da1ea7</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1929aeadfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>b9709b39abe12210ed6ac90c72eea3a7</update_guid>
+        <update_guid_history>b9709b39abe12210ed6ac90c72eea3a7:-43333204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-17 12:04:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>0ce8de036b584632a473b2445b040e84</sys_id>
+        <sys_metadata>87eecbb5eae122103359432efbd1aa89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_scope_delete display_value="">20950a66d9b644bd9d1ff068c707b2d9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_87eecbb5eae122103359432efbd1aa89</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_87eecbb5eae122103359432efbd1aa89">f9709b3983e122107f44619151da1ea7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-17 12:04:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
