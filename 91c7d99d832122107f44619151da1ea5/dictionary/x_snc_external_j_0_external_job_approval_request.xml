@@ -5,6 +5,7 @@
         <element label="Invoice Document" mandatory="true" max_length="255" name="invoice_document" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element hint="Please select Plant" label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_external_j_0_plant_m" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="GL List" mandatory="true" max_length="1024" name="u_glide_list_1" reference="x_snc_external_j_0_gl_m" type="glide_list"/>
         <index name="index">
             <element name="gl"/>
         </index>
