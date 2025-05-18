@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "5865e308432021105571609dc7b8f23b": {
+        "table": "task",
+        "listId": "",
+        "filter": "",
+        "columns": "",
+        "view": "",
+        "columnLimit": 0,
+        "rowLimit": 10,
+        "currentPage": 0,
+        "recordCountLimit": null,
+        "actionConfigId": "df28e3db0f1210107d20409dc4767ee0",
+        "parentTable": "",
+        "parentRecordSysId": "",
+        "transformScriptSysId": null
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "task",
+        "inputSysId": "c4c71035839512107f4469f60cda1edb",
+        "inputQuery": "",
+        "view": "workspace-external-job-approval-workflow-0",
+        "forcedViewName": "",
+        "detailsContext": "",
+        "activityLogs": "",
+        "inputExtraParams": "",
+        "screen": "",
+        "fields": "",
+        "userPrefs": "",
+        "selectedTabIndex": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    },
+    "table": "task",
+    "sysId": "c4c71035839512107f4469f60cda1edb",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "screen": "",
+    "fields": "",
+    "userPrefs": "",
+    "selectedTabIndex": ""
+}</macroponent_config>
+        <screen display_value="Default">e56f5fb9832522107f44619151da1eb5</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-17 13:09:34</sys_created_on>
+        <sys_id>e16f5fb9832522107f44619151da1eb8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_e16f5fb9832522107f44619151da1eb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 07:48:45</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

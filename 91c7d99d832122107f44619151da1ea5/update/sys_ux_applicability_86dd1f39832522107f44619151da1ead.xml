@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_external_j_0.Audience for app external-job-approval-workflow1</api_name>
+        <description/>
+        <name>Audience for app external-job-approval-workflow1</name>
+        <role_names/>
+        <roles>a1c7d99d832122107f44619151da1eab,6dc7d99d832122107f44619151da1ebb</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-17 13:02:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86dd1f39832522107f44619151da1ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app external-job-approval-workflow1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_ux_applicability_86dd1f39832522107f44619151da1ead</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-17 13:02:47</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

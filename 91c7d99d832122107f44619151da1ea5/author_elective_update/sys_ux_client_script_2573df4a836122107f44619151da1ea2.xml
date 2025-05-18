@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">6d6f5fb9832522107f44619151da1eb2</macroponent>
+        <name>dropdown_1/items</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.imports
+*/
+function evaluateProperty({api}) {
+  
+var arr = [];
+
+for(var i = 0; i<api.data.look_up_records_1.results.length; i++)
+{
+var myObj = {};
+  myObj.id = api.data.look_up_records_1.results[i].sys_id.value;
+myObj.label = api.data.look_up_records_1.results[i].plant_desc.value;
+
+arr.push(myObj);
+
+}
+return arr;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 07:08:37</sys_created_on>
+        <sys_id>2573df4a836122107f44619151da1ea2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_ux_client_script_2573df4a836122107f44619151da1ea2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 07:13:31</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</application>
+        <file_path/>
+        <instance_id>4c3080fc93a92a90fb38f8284dba10c0</instance_id>
+        <instance_name>nowlearning-nlinst02801722-6vhxa-0001</instance_name>
+        <name>sys_ux_client_script_2573df4a836122107f44619151da1ea2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;6d6f5fb9832522107f44619151da1eb2&lt;/macroponent&gt;&lt;name&gt;dropdown_1/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.imports
+*/
+function evaluateProperty({api}) {
+  
+var arr = [];
+
+for(var i = 0; i&lt;api.data.look_up_records_1.results.length; i++)
+{
+var myObj = {};
+  myObj.id = api.data.look_up_records_1.results[i].sys_id.value;
+myObj.label = api.data.look_up_records_1.results[i].plant_desc.value;
+
+arr.push(myObj);
+
+}
+return arr;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-18 07:08:37&lt;/sys_created_on&gt;&lt;sys_id&gt;2573df4a836122107f44619151da1ea2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;dropdown_1/items&lt;/sys_name&gt;&lt;sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0"&gt;91c7d99d832122107f44619151da1ea5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="External Job Approval Workflow"&gt;91c7d99d832122107f44619151da1ea5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_2573df4a836122107f44619151da1ea2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-18 07:13:31&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-486592507</payload_hash>
+        <record_name>dropdown_1/items</record_name>
+        <reverted_from/>
+        <source>6562bdd983a122107f44619151da1e2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 07:13:31</sys_created_on>
+        <sys_id>6377930283a122107f44619151da1e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e23d9fb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 07:13:31</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>6b77930231a12210dcee0b7ec8e2c012</update_guid>
+        <update_guid_history>6b77930231a12210dcee0b7ec8e2c012:-486592507,eb565f8eaf61221053c15e0918916f67:1032995243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 07:15:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>25ee9fcdb4394175b087d1a9bc3709f1</sys_id>
+        <sys_metadata>2573df4a836122107f44619151da1ea2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_scope_delete display_value="">20950a66d9b644bd9d1ff068c707b2d9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_2573df4a836122107f44619151da1ea2</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_2573df4a836122107f44619151da1ea2">6377930283a122107f44619151da1e13</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 07:15:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

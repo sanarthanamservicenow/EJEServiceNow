@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="17dd5f39832522107f44619151da1ee7" sys_domain="global" table="x_snc_external_j_0_gl_m" version="3" view="workspace-external-job-approval-workflow-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gl_code</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 13:02:52</sys_created_on>
+            <sys_id>57dd5f39832522107f44619151da1ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_gl_m" sys_domain="global" view="19dddb39bf2522104ab099641f7140c9">17dd5f39832522107f44619151da1ee7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 13:02:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 13:02:52</sys_created_on>
+            <sys_id>5bdd5f39832522107f44619151da1ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_gl_m" sys_domain="global" view="19dddb39bf2522104ab099641f7140c9">17dd5f39832522107f44619151da1ee7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 13:02:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gl_desc</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 13:02:52</sys_created_on>
+            <sys_id>5fdd5f39832522107f44619151da1ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_external_j_0_gl_m" sys_domain="global" view="19dddb39bf2522104ab099641f7140c9">17dd5f39832522107f44619151da1ee7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 13:02:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_external_j_0_gl_m</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 13:02:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17dd5f39832522107f44619151da1ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_external_j_0_gl_m</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+            <sys_update_name>sys_ui_section_17dd5f39832522107f44619151da1ee7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 13:02:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace External Job Approval Workflow 0" name="workspace-external-job-approval-workflow-0">19dddb39bf2522104ab099641f7140c9</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
