@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Reject">de0a5b44877122100ac0ec065f812a4f</action_payload_definition>
+        <label>Reject Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <required_translations/>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 12:32:32</sys_created_on>
+        <sys_id>9a0a5b44b57122102ca5658746b5024e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Evam</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_9a0a5b44b57122102ca5658746b5024e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 12:32:32</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

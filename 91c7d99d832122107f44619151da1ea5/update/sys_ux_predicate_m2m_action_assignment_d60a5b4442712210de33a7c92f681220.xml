@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">5a0a5b440f712210afd36cdc97ac3e4f</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">160a5b4463712210190570e733afc429</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 12:32:33</sys_created_on>
+        <sys_id>d60a5b4442712210de33a7c92f681220</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_d60a5b4442712210de33a7c92f681220</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 12:32:33</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d60a5b441d71221008f2803c0f7fb84b" sys_domain="global" table="sys_user" version="3" view="2_custom_portal_settings_x_snc_external_j_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 12:32:35</sys_created_on>
+            <sys_id>5e0a5b4489712210d97278779c80f84b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="9a0a5b44dd712210eb515129ed6d894b">d60a5b441d71221008f2803c0f7fb84b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 12:32:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 12:32:35</sys_created_on>
+            <sys_id>120a5b44ef7122100c179e1f2662434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="9a0a5b44dd712210eb515129ed6d894b">d60a5b441d71221008f2803c0f7fb84b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 12:32:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 12:32:35</sys_created_on>
+            <sys_id>160a5b442171221042e89fc4924f3b4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="9a0a5b44dd712210eb515129ed6d894b">d60a5b441d71221008f2803c0f7fb84b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 12:32:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 12:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d60a5b441d71221008f2803c0f7fb84b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+            <sys_update_name>sys_ui_section_d60a5b441d71221008f2803c0f7fb84b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 12:32:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="2_custom_portal_settings_x_snc_external_j_0" name="2_custom_portal_settings_x_snc_external_j_0">9a0a5b44dd712210eb515129ed6d894b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

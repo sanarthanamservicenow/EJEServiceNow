@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="External Job Approval Workflow">520a5b44177122109247c27ead961f1a</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 12:32:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>520a5b44c5712210ffd972ee79e7ce23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_ux_page_property_520a5b44c5712210ffd972ee79e7ce23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 12:32:31</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_external_j_0.520a5b44177122109247c27ead961f1a.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=520a5b44c5712210ffd972ee79e7ce23"/>
+</record_update>

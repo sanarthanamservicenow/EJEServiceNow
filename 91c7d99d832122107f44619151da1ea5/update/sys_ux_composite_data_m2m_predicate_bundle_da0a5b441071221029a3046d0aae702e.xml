@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">560a5b4486712210bda53d71c658bb31</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">d60a5b44a8712210372957dc5120242f</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 12:32:31</sys_created_on>
+        <sys_id>da0a5b441071221029a3046d0aae702e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="External Job Approval Workflow" source="x_snc_external_j_0">91c7d99d832122107f44619151da1ea5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="External Job Approval Workflow">91c7d99d832122107f44619151da1ea5</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_da0a5b441071221029a3046d0aae702e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 12:32:31</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
